@@ -12,13 +12,12 @@ import TheWelcome from './components/TheWelcome.vue'
     </div>
   </header>
 
-  <main>
-      <body style="margin: 0; height: 100vh; background-color: rgb(31, 31, 31);">
+  <main style="margin: 0; height: 100vh; background-color: rgb(31, 31, 31);">
+
     <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; color: white; flex-direction: column;">
       <H1 style="font-size: 40px; font-weight: 900; font-style: italic;" >Il sito è momentaneamente in manutenzione.</H1>
       <h2>Ci scusiamo per eventuali disagi.</h2>
     </div>
-  </body>
     <!-- <TheWelcome /> -->
   </main>
 </template>
